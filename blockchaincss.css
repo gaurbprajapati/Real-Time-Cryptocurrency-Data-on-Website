@@ -1,0 +1,236 @@
+*{
+    margin: 0;;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'poppins',sans-serif;
+
+}
+
+.container{
+
+    width: 100%;
+    height: 100vh;
+    background-image: url("block.jpg");
+    background-position: center;
+    background-size: cover;
+    padding: 0 7%;
+    color:white;
+}
+
+
+nav{
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 50px;
+    cursor: pointer;
+
+}
+
+nav ul{
+    flex: 1;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+}
+nav ul a{
+    color:#fff;
+    text-decoration: none;
+
+}
+
+nav .btn{
+    color:white;
+    text-decoration:none ;
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+
+
+
+/* --------------------------------------------*/
+
+.content{
+    margin-top: 10%;
+}
+
+.content h1{
+    font-size: 50px;
+    margin-bottom: 15px; 
+ } 
+
+.content h1 span{
+    /* color: #ff960b; */
+    /* color: #f2a900; */
+    color : rgb(242, 169, 0);
+}
+
+.content p{
+    line-height: 22px;
+    /* font: outline; */
+    /* font: optional; */
+    font-size: 15px;
+
+}
+
+div .btn{
+    color:white;
+    text-decoration:none ;
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    border-radius: 20px;
+
+}
+
+nav .btn{
+    color:white;
+    text-decoration:none ;
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+
+
+.container .btn{
+    background-color: #fff;
+    font-style: bold;
+}
+
+
+
+
+.content .btn{
+    display: inline-block;
+    margin-top: 30px;
+    /* background-attachment: ; */
+    background: rgb(242, 169, 0);
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 30px;
+} 
+
+.container .logo{
+    color: rgb(242, 169, 0);
+    
+}
+
+/* ------------------------------ ----------------*/
+
+
+.detail{
+    width: 100%;
+    height: 8vh;
+    background-color:black;
+    
+}
+.detail h1{
+text-align: center;
+color: #f2a900;
+/* margin-top: 10px; */
+}
+
+.coinclass{
+    width: 100%;
+    height: 30vh;
+    background-color: black;
+}
+
+.coinclass{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.coinclass .coin-price{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin: 0 15px;
+    color:  #f2a900;
+    border: 1px solid white;
+    padding: 20px 30px;
+    border-radius: 8px;
+}
+
+.coinclass .coin-price .logo{
+    width: 70px;
+    margin-right: 10px;
+}
+.coinclass .coin-price .logo img{
+    width: 100%;
+}
+.coinclass .coin-price div{
+    display: block;
+}
+.coinclass .coin-price div h1{
+    font-size: 20px;
+}
+.coinclass .coin-price h1{
+    color: #fff;
+}
+.coinclass .coin-price h2{
+    color: #f2a900;
+}
+
+/* Design for Footer  */
+/* ------------------------- */
+
+.site-footer {
+    background-color: white;
+      text-align: center;
+      margin: 10px 0;
+      padding: 10px 0;
+  }
+  
+  #social-wrapper {
+      text-align: center;
+  }
+  
+  /*Social Media Icons*/
+  .social-wrapper {
+      text-align: center;
+  }
+  
+  .social-wrapper ul li {
+      display: inline;
+      margin: 0 5px;
+  }
+  
+  .twitter-icon,
+  .facebook-icon,
+  .instagram-icon,
+  .linkedin-icon,
+  .googleplus-icon,
+  .youtube-icon,
+  .foursquare-icon{
+      margin-top: .625em;
+      width: 40px;
+      height: 40px;
+      opacity: .6;
+      filter: alpha(opacity=60); /* For IE8 and earlier */
+    border-radius: 25px;
+  }
+  
+  .twitter-icon:hover,
+  .facebook-icon:hover,
+  .instagram-icon:hover,
+  .linkedin-icon:hover,
+  .googleplus-icon:hover,
+  .youtube-icon:hover,
+  .foursquare-icon:hover {
+      opacity: 1.0;
+      filter: alpha(opacity=100); /* For IE8 and earlier */
+  }
+  
+  .footer-nav p {
+      text-align: center;
+  }
+

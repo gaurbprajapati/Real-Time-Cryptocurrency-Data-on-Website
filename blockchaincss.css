@@ -20,13 +20,13 @@
 
 nav{
     width: 100%;
-    padding: 20px 0;
+    padding: 20% 0;
     display: flex;
     align-items: center;
 }
 
 .logo{
-    width: 50px;
+    width: 50%;
     cursor: pointer;
 
 }
@@ -37,7 +37,7 @@ nav ul{
 
 nav ul li{
     display: inline-block;
-    margin: 10px 20px;
+    margin: 10% 20%;
 }
 nav ul a{
     color:#fff;
@@ -49,8 +49,8 @@ nav .btn{
     color:white;
     text-decoration:none ;
     border: 1px solid #fff;
-    padding: 10px 30px;
-    border-radius: 20px;
+    padding: 10% 30%;
+    border-radius: 20%;
 }
 
 
@@ -62,8 +62,8 @@ nav .btn{
 }
 
 .content h1{
-    font-size: 50px;
-    margin-bottom: 15px; 
+    font-size: 50%;
+    margin-bottom: 15%; 
  } 
 
 .content h1 span{
@@ -73,28 +73,28 @@ nav .btn{
 }
 
 .content p{
-    line-height: 22px;
+    line-height: 22%;
     /* font: outline; */
     /* font: optional; */
-    font-size: 15px;
+    font-size: 15%;
 
 }
 
 div .btn{
     color:white;
     text-decoration:none ;
-    border: 1px solid #fff;
-    padding: 10px 30px;
-    border-radius: 20px;
+    border: 1% solid #fff;
+    padding: 10% 30%;
+    border-radius: 20%;
 
 }
 
 nav .btn{
     color:white;
     text-decoration:none ;
-    border: 1px solid #fff;
-    padding: 10px 30px;
-    border-radius: 20px;
+    border: 1% solid #fff;
+    padding: 10% 30%;
+    border-radius: 20%;
 }
 
 
@@ -108,13 +108,13 @@ nav .btn{
 
 .content .btn{
     display: inline-block;
-    margin-top: 30px;
+    margin-top: 30%;
     /* background-attachment: ; */
     background: rgb(242, 169, 0);
     color: #fff;
     text-decoration: none;
-    padding: 15px 30px;
-    border-radius: 30px;
+    padding: 15% 30%;
+    border-radius: 30%;
 } 
 
 .container .logo{
@@ -147,22 +147,22 @@ color: #f2a900;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 5px;
+    border-radius: 5%;
 }
 .coinclass .coin-price{
     display: flex;
     align-items: center;
-    font-size: 14px;
-    margin: 0 15px;
+    font-size: 14%;
+    margin: 0 15%;
     color:  #f2a900;
-    border: 1px solid white;
-    padding: 20px 30px;
-    border-radius: 8px;
+    border: 1% solid white;
+    padding: 20% 30%;
+    border-radius: 8%;
 }
 
 .coinclass .coin-price .logo{
-    width: 70px;
-    margin-right: 10px;
+    width: 70%;
+    margin-right: 10%;
 }
 .coinclass .coin-price .logo img{
     width: 100%;
@@ -186,8 +186,8 @@ color: #f2a900;
 .site-footer {
     background-color: white;
       text-align: center;
-      margin: 10px 0;
-      padding: 10px 0;
+      margin: 10% 0;
+      padding: 10% 0;
   }
   
   #social-wrapper {
@@ -201,7 +201,7 @@ color: #f2a900;
   
   .social-wrapper ul li {
       display: inline;
-      margin: 0 5px;
+      margin: 0 5%;
   }
   
   .twitter-icon,
@@ -212,11 +212,11 @@ color: #f2a900;
   .youtube-icon,
   .foursquare-icon{
       margin-top: .625em;
-      width: 40px;
-      height: 40px;
+      width: 40%;
+      height: 40%;
       opacity: .6;
       filter: alpha(opacity=60); /* For IE8 and earlier */
-    border-radius: 25px;
+    border-radius: 25%;
   }
   
   .twitter-icon:hover,
